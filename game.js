@@ -52,6 +52,7 @@ function playGame() {
         getComputerChoice();
         winner();
     }
+    console.log("Thanks for playing!")
 }
 
 playGame();
