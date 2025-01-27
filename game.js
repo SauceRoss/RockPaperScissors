@@ -25,7 +25,7 @@ function winner() {
     } else if((botAns === 1 && userAns === 2) || (botAns === 2 && userAns === 3) || (botAns === 3 && userAns === 1)) {
         console.log("Congrats you won with " + userResult + " vs " + botResult)
     } else {
-        console.log("LMAO the bot had " + botResult + " and you had " + userResult);
+        console.log("You lose the bot had " + botResult + " and you had " + userResult);
     } 
 
 }
@@ -52,6 +52,7 @@ function playGame() {
         getComputerChoice();
         winner();
     }
+    console.log("Thanks for playing!")
 }
 
 playGame();
