@@ -49,6 +49,7 @@ function playGame() {
 
         counter++;
 
+        
         getComputerChoice();
         winner();
     }
